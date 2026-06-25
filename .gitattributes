@@ -1,4 +1,0 @@
-# Generated files — always LF so cargo build doesn't dirty the working tree on Windows
-lore-capi/lore.h eol=lf
-lore-server/src/hooks/mod.rs eol=lf
-lore-server/src/plugins/mod.rs eol=lf
