@@ -1,13 +1,13 @@
 // SPDX-FileCopyrightText: 2026 Epic Games, Inc.
 // SPDX-License-Identifier: MIT
-use lore::remote::command::LoreCommand;
-use lore::remote::message::MessageError;
-use lore::remote::message::MessageToServer;
-use lore::remote::message::SerializationType;
-use lore::remote::message::V1Header;
-use lore::remote::message::blocking_read_v1_message;
-use lore::remote::message::write_v1_message;
-use lore::repository::LoreRepositoryStatusArgs;
+use lore_ffi::remote::command::LoreCommand;
+use lore_ffi::remote::message::MessageError;
+use lore_ffi::remote::message::MessageToServer;
+use lore_ffi::remote::message::SerializationType;
+use lore_ffi::remote::message::V1Header;
+use lore_ffi::remote::message::blocking_read_v1_message;
+use lore_ffi::remote::message::write_v1_message;
+use lore_ffi::repository::LoreRepositoryStatusArgs;
 use lore_revision::interface::LoreArray;
 use lore_revision::interface::LoreGlobalArgs;
 use lore_revision::interface::LoreString;

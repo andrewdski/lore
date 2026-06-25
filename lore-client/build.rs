@@ -13,10 +13,6 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     // Compile metadata into lore.exe for Windows
     if std::env::var("CARGO_CFG_TARGET_OS").unwrap() == "windows" {
-        // Hack around EXE and DLL having the same file name for PDB file
-        let profile_dir = profile_dir();
-        println!("cargo:rustc-link-arg-bins=/PDB:{profile_dir}\\lore.exe.pdb");
-
         // Create WindowsResource with defaults from the crate
         let mut winres = winresource::WindowsResource::new();
 
