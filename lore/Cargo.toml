@@ -5,7 +5,7 @@ version.workspace = true
 publish = false
 
 [lib]
-name = "lore_ffi"
+name = "lore"
 crate-type = ["staticlib", "rlib", "cdylib"]
 
 [dependencies]

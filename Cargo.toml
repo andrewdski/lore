@@ -25,7 +25,7 @@ members = [
 version = "0.8.5-nightly"
 
 [workspace.dependencies]
-lore = { path = "lore", package = "lore" }
+lore = { path = "lore" }
 lore-aws = { path = "lore-aws" }
 lore-base = { path = "lore-base" }
 lore-credential = { path = "lore-credential" }
